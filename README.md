@@ -14,10 +14,10 @@ Thanks for checking out this front-end coding challenge.
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
-Your users should be able to:
+### Challenge checklist:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Your users should be able to view the optimal layout for the site depending on their device's screen size
+- Your users should be able to see hover states for all interactive elements on the page
 - Use can choose to use CSS grid of flexbox or a combination of booth to create layout of this landing page
 
 #### Page content
