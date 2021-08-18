@@ -116,5 +116,93 @@ body {
     padding-right: 20%;
 }
 
+.div-ur-user {
+    display:flex;
+    flex-direction:row;
+    background-color: hsl(207, 100%, 98%);
+    
+}
+.div-img-your-user {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-right: 10%;
+}
+.user-integrate {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 0%;
+    margin-left:10%;
+    margin-right:10%;
+}
+#p-integrate {
+    text-align: left;
 
+}
+#img-your-users {
+    width:500px;
+    height: 500px;
+}
+#top-desktop-2 {
+    width:100%;
+    
+}
+#bottom-desktop-2 {
+    width:100%;
+}
 
+.footer-contain1 {
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+}
+.footer-contain {
+    display:flex;
+    flex-direction:row;
+}
+#img-footer-top-desktop{
+    width: 100%;
+}
+.f-logo-awesome {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color:white;
+    width: 50%;
+    background-color:seagreen;
+    margin-left: 10%;
+}
+.f-news-form {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color:white;
+    width: 50%;
+}
+.div-receive-tips {
+    width:50%;
+    background-color:violet;
+}
+#img-logo1 {
+    color: white;
+}
+.my-fontawesome {
+    display: flex;
+    flex-direction:row;
+   padding-top:10px;
+}
+#p-lorem-ipsum {
+    text-align: left;
+}
+#p-recieve-tips {
+    text-align: left;
+}
+#instagram, #twitter{
+    padding-left: 20px;
+}
