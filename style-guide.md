@@ -17,7 +17,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Dark Cyan: hsl(207, 100%, 98%)
 - Very Pale Blue: hsl(207, 100%, 98%)
 
 ## Typography

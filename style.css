@@ -1,0 +1,120 @@
+body {
+    margin: 20px;
+    text-align: center;
+}
+.div-logo-try-it {
+    display:flex;
+    flex-direction:row;
+}
+.div-logo {
+    display:flex;
+    width:50%;
+    align-items:center;
+    justify-content: flex-start;
+    background-color:burlywood;
+} 
+.div-try-it {
+    display:flex;
+    width:50%;
+    align-items:center;
+    justify-content: flex-end;
+   background-color:brown;
+}
+.div-build-huddle {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center; 
+}
+.my-hundle {
+    width: 35%;
+    height: 30%;
+    background-color: burlywood;
+    text-align: center;
+}
+.center-comm-mesg {
+    display:flex;
+    flex-direction:row;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:cornflowerblue;
+}
+.div-comm {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+    width: 50%;
+    background-color:cyan;
+}
+.message-sent {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-left:80%;
+    background-color: darkgray;
+}
+.div-grow-together-disc {
+    display:flex;
+    flex-direction:row;
+    background-color: hsl(207, 100%, 98%);
+    
+}
+.div-grow-together {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-right: 10%;
+}
+.together-disc {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 0%;
+    margin-left:10%;
+    margin-right:10%;
+}
+#p-discussions {
+    text-align: left;
+}
+#img-grow-together {
+    width:500px;
+    height: 500px;
+}
+
+#top-desktop-1 {
+    width:100%;
+    
+}
+#bottom-desktop-1 {
+    width:100%;
+}
+.folowing-life {
+    display:flex;
+    flex-direction:row;
+}
+.div-folowing-conv {
+    width:60%;
+}
+.life-conversation {
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    width:50%;
+}
+#img-flowing-conversation {
+    width:500px;
+    height: 500px;
+}
+#p-real-life {
+    text-align: left;
+    padding-right: 20%;
+}
+
+
+
