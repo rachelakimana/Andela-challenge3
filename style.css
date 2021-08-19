@@ -1,35 +1,70 @@
+@font-face{
+    font-family:header-font;
+    src: url(fonts/Poppins/Poppins-Bold.ttf)
+}
+@font-face{
+    font-family:body-font;
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf)
+}
+
+h1{
+    font-family:header-font;
+    font-weight:700;
+    font-size:40px;
+}
+
+button{
+  font-family:body-font;
+    
+}
+p{
+    font-family: body-font;
+    font-weight:400;
+    
+}
+
 body {
     margin: 20px;
     text-align: center;
 }
 .div-logo-try-it {
+    margin-top: 5%;
     display:flex;
     flex-direction:row;
+    
 }
 .div-logo {
     display:flex;
     width:50%;
     align-items:center;
     justify-content: flex-start;
-    background-color:burlywood;
 } 
 .div-try-it {
     display:flex;
     width:50%;
     align-items:center;
     justify-content: flex-end;
-   background-color:brown;
+}
+
+#try-it {
+   color:hsl(322, 100%, 66%);
+   background-color:white;
+   height:80%;
+   width:15%;
+   border-radius:50px;
+   border: solid 1px;
+   border-color:hsl(322, 100%, 66%);
 }
 .div-build-huddle {
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content: center; 
+    justify-content: center;
+    margin-top: 10%;
 }
 .my-hundle {
     width: 35%;
     height: 30%;
-    background-color: burlywood;
     text-align: center;
 }
 .center-comm-mesg {
@@ -47,13 +82,18 @@ body {
     width: 50%;
     background-color:cyan;
 }
+
+#one-four, #two-seven {
+    font-size:80px;
+}
+
 .message-sent {
     display:flex;
     flex-direction:column;
     align-items:flex-start;
     justify-content: center;
     width: 50%;
-    margin-left:80%;
+    margin-left:60%;
     background-color: darkgray;
 }
 .div-grow-together-disc {
@@ -153,11 +193,22 @@ body {
 #bottom-desktop-2 {
     width:100%;
 }
+#get-started {
+    height: 60px;
+    width:  350px;
+    margin-top:2%;
+    margin-bottom: 2%;
+    border: none;
+    border-radius:50px;
+    color: white;
+    background-color:hsl(322, 100%, 66%);
+}
 
 .footer-contain1 {
     display:flex;
     flex-direction:column;
     width: 100%;
+    height:470px;
     background-color: hsl(192, 100%, 9%);
 }
 .footer-contain {
@@ -165,6 +216,7 @@ body {
     flex-direction:row;
 }
 #img-footer-top-desktop{
+    margin-top:10%;
     width: 100%;
 }
 .f-logo-awesome {
@@ -174,7 +226,8 @@ body {
     justify-content: flex-start;
     color:white;
     width: 50%;
-    background-color:seagreen;
+    height: 450px;
+    /* background-color:seagreen; */
     margin-left: 10%;
 }
 .f-news-form {
@@ -184,18 +237,22 @@ body {
     justify-content: flex-start;
     color:white;
     width: 50%;
+
 }
 .div-receive-tips {
-    width:50%;
-    background-color:violet;
+    width:60%;
+    /* background-color:violet; */
 }
 #img-logo1 {
     color: white;
 }
+
 .my-fontawesome {
     display: flex;
     flex-direction:row;
-   padding-top:10px;
+    padding-top: 10%;
+    /* background-color:yellowgreen; */
+   
 }
 #p-lorem-ipsum {
     text-align: left;
@@ -203,6 +260,78 @@ body {
 #p-recieve-tips {
     text-align: left;
 }
-#instagram, #twitter{
-    padding-left: 20px;
+#instagram{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    font-weight: 700;
+    font-size:30px;
+      
+}
+p i {
+    color: white;
+    margin-right: 10px;
+    font-size:20px;
+    
+}
+h1 i {
+    margin-right: 10px;
+    color: white;
+    
+}
+.fa-instagram {
+    color: white;
+}
+
+#twitter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    font-weight: 700;
+    font-size:30px;
+    background-color:white;
+    
+}
+
+#facebook {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 32px;
+    font-weight: 700;
+    font-size:30px;
+    background-color:white;
+    text-align: left;
+    
+    
+}
+i {
+    color:hsl(192, 100%, 9%); 
+}
+
+.div-form {
+    margin-top:5%;
+}
+
+#subscribe {
+    height: 57px;
+    width:  150px;
+    /* margin-top:2%;
+    margin-bottom: 2%;
+    border: none;
+    border-radius:50px; */
+    color: white;
+    background-color:hsl(322, 100%, 66%);
+}
+
+#email {
+    height: 50px;
+    width:  350px;
+    color: hsl(192, 100%, 9%);
+    background-color:white;
 }
