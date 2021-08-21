@@ -28,11 +28,10 @@ p{
 }
 
 body {
-    margin: 20px;
     text-align: center;
 }
 .div-logo-try-it {
-    margin-top: 5%;
+    margin: 5%;
     display:flex;
     flex-direction:row;
     
@@ -53,8 +52,8 @@ body {
 #try-it {
    color:hsl(322, 100%, 66%);
    background-color:white;
-   height:80%;
-   width:15%;
+   height:30px;
+   width:120px;
    border-radius:50px;
    border: solid 1px;
    border-color:hsl(322, 100%, 66%);
@@ -88,6 +87,7 @@ body {
 
 #one-four, #two-seven {
     font-size:80px;
+    font-weight:700;
 }
 .one-two{
     display:flex;
@@ -339,3 +339,256 @@ form {
     color: hsl(192, 100%, 9%);
     background-color:white;
 }
+
+#img-footer-top-mobile,
+#bottom-mobile-2,#top-mobile-2,
+#bottom-mobile-1,#top-mobile-1 {
+    display:none;
+}
+
+
+@media screen and (max-width:375px) {
+    #img-footer-top-desktop,
+#bottom-desktop-2,#top-desktop-2,
+#bottom-desktop-1,#top-desktop-1 {
+    display:none;
+}
+#img-footer-top-mobile,
+#bottom-mobile-2,#top-mobile-2,
+#bottom-mobile-1,#top-mobile-1 {
+    display:block;
+    width:100%;
+}
+
+.div-logo-try-it {
+    margin: 3%;
+    margin-top:10%;
+    
+}
+
+#try-it {
+   height:30px;
+   width:100px;
+   
+}
+#img-logo {
+   width: 130px;
+   height: 25px; 
+}
+h1{
+    font-family:header-font;
+    font-weight:700;
+    font-size:30px;
+}
+.div-build-huddle {
+    margin-top: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.my-hundle {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#get-started {
+    height: 50px;
+    width:  250px;
+    margin-top:10%;
+    margin-bottom: 25%;
+   
+}
+#img-mockup {
+    width:350px;
+    height: 350px;
+}
+.center-comm-mesg {
+    display:flex;
+    flex-direction:column;
+    justify-items:center;
+    align-items: center;
+    padding-top: 30%;
+    margin:0%;
+
+
+}
+.div-comm {
+    width:55% ;
+    margin-left:0%;
+}
+
+.message-sent {
+    margin-left:0%;
+    width: 55%;
+    margin-top:35%;
+}
+.div-grow-together-disc {
+    display:flex;
+    flex-direction:column-reverse;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    
+}
+.div-grow-together {
+    align-items: center;
+    justify-content: center;
+    width: auto;   
+}
+.together-disc {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+#p-discussions { 
+text-align: center;
+    
+}
+#img-grow-together {
+    width:350px;
+    height: 350px;
+}
+
+
+.folowing-life {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+    
+}
+.div-folowing-conv {
+    width:auto;
+}
+.life-conversation {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+    width:auto;
+}
+#img-flowing-conversation {
+    width:350px;
+    height: 350px;
+}
+#p-real-life {
+    text-align: center;
+    padding-right: 0%;
+}
+
+.div-ur-user {
+    display:flex;
+    flex-direction:column-reverse;
+    background-color: hsl(207, 100%, 98%);
+    
+}
+.div-img-your-user {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-right: 0%;
+}
+.user-integrate {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 0%;
+    margin-left:0%;
+    margin-right:0%;
+}
+#p-integrate {
+    text-align: center;
+
+}
+#img-your-users {
+    width:350px;
+    height: 350px;
+}
+#top-desktop-2 {
+    margin-bottom: -0.5%;
+    width:100%;
+    
+}
+#bottom-desktop-2 {
+    width:100%;
+}
+
+
+.footer-contain1 {
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height:470px;
+}
+.footer-contain {
+    width: 100%;
+    display:flex;
+    flex-direction:column-reverse;
+    background-color:hsl(192, 100%, 9%); 
+}
+#img-footer-top-desktop{
+    margin-bottom: -1%;
+    margin-top:10%;
+    width: 100%;
+}
+.f-logo-awesome {
+    
+    width: auto;
+    height: 450px;
+}
+.f-news-form {
+
+    margin-left: 10%;
+    width: auto;
+
+}
+.div-receive-tips {
+    width:auto;
+}
+.my-fontawesome {
+    margin-top: 15%; 
+}
+#p-lorem-ipsum,#p-recieve-tips {
+    text-align: left;
+    margin-right: 20px;
+}
+.div-form {
+    margin-top:5%;
+}
+form {
+    display:flex;
+    flex-direction:column;
+}
+
+#subscribe {
+    height: 55px;
+    width:  150px;
+    margin-top:30px ;
+    margin-left:140px;
+    margin-bottom: 100px;
+    border: none;
+}
+
+#email {
+    border-color: white;
+    height: 50px;
+    width:  280px;
+    color: hsl(192, 100%, 9%);
+    background-color:white;
+}
+#subscribe, #email {
+    border-radius: 10px;
+}
+
+}
+
+
+
+  
+
+
